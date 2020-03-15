@@ -1,0 +1,141 @@
+.text-uppercase {
+  letter-spacing: 0.08em;
+}.megamenu {
+  position: static;
+}
+
+.megamenu .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 10000px) {
+  .navbar-brand {
+    width : 480px;
+  }
+  .mybox{
+    padding-left: 50px;
+  }
+  .mybox1{
+    margin-left: 200px;
+  }
+  .mybox2{
+    margin-left: 200px;
+  }
+  .megamenu1{
+    margin-left: 250px;
+  }
+  .megamenu2{
+    margin-left: 400px;
+  }
+  .mycontent{
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .c1{
+     margin: 20px;
+  }
+  .c11{
+    width: 750px;
+  }
+  .c12{
+    border: 1px solid lightgrey;
+  }
+  .c1img{
+    margin-left: 570px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .c11{
+    width: 550px;
+  }
+  .c1img{
+    margin-left: 300px;
+  }
+  .megamenu1{
+    margin-left: 100px;
+  }
+  .megamenu2{
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .c11{
+    width: 550px;
+  }
+  .c1img{
+    margin-left: 300px;
+  }
+  .megamenu1{
+    margin-left: 100px;
+  }
+  .megamenu2{
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 770px) {
+  .c11{
+    width: 550px;
+  }
+  .c1img{
+    margin-left: 300px;
+  }
+  .megamenu1{
+    margin-left: 20px;
+  }
+  .megamenu2{
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 510px) {
+  .logo {
+    width : 100px;
+  }
+  .mybox{
+    padding-left: 100px;
+  }
+  .mybox1{
+    margin-left: 130px;
+  }
+  .mybox2{
+    margin-left: 30px;
+  }
+  .megamenu1{
+    margin-left: auto;
+  }
+  .megamenu2{
+    margin-left: auto;
+  }
+  .mycontent{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .c1{
+     margin: 150px;;
+  }
+  .c11{
+    width: 470px;
+  }
+  .c12{
+    border: 0px solid lightgrey;
+  }
+  .c1img{
+    margin-left: 300px;
+  }
+}

@@ -1,0 +1,88 @@
+.text-uppercase {
+  letter-spacing: 0.08em;
+}.megamenu {
+  position: static;
+}
+
+.megamenu .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 10000px) {
+  .navbar-brand {
+    width : 480px;
+  }
+  .mybox2{
+    margin-left: 200px;
+  }
+  .megamenu1{
+    margin-left: 300px;
+  }
+  .megamenu2{
+    margin-left: 400px;
+  }
+}
+@media screen and (max-width: 1152px) {
+  .mybox2{
+    margin-left: 30px;
+  }
+  .megamenu1{
+    margin-left: 100px;
+  }
+  .megamenu2{
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 993px) {
+  .mybox2{
+    margin-left: 30px;
+  }
+  .megamenu1{
+    margin-left: 80px;
+  }
+  .megamenu2{
+    margin-left: 120px;
+  }
+}
+@media screen and (max-width: 765px) {
+  .mybox2{
+    margin-left: 30px;
+  }
+  .megamenu1{
+    margin-left: auto;
+  }
+  .megamenu2{
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 510px) {
+  .logo {
+    width : 100px;
+  }
+  .mybox2{
+    margin-left: 30px;
+  }
+  .megamenu1{
+    margin-left: auto;
+  }
+  .megamenu2{
+    margin-left: auto;
+  }
+}

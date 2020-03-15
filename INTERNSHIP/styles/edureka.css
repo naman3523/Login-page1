@@ -1,0 +1,140 @@
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  top: 200px;
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 5px 15px 5px 15px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 15px; /* Increase font size */
+}
+
+@media only screen and (max-width: 10000px) {
+  .mylogin{
+    margin-right: 150px;
+  }
+  .mysearch{
+    width: 600px;
+  }
+  .myform{
+    margin-left: 100px;
+  }
+  .myform2{
+    margin-right: 0px;
+  }
+  .edureka{
+    margin-left: 160px;
+  }
+  .mydiv{
+    margin-left: 160px;
+    margin-right: 200px;
+  }
+  .mydiv1{
+    margin-left: 180px;
+    margin-right: 220px;
+  }
+  #myBtn{
+    left: 650px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .mylogin{
+    margin-right: 100px;
+  }
+  .mysearch{
+    width: 600px;
+  }
+  .myform{
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .myform2{
+    margin-right: 0px;
+  }
+  .edureka{
+    margin-left: 160px;
+  }
+  .mydiv{
+    margin-left: 160px;
+    margin-right: 200px;
+  }
+  .mydiv1{
+    margin-left: 180px;
+    margin-right: 220px;
+  }
+  #myBtn{
+    left: 650px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .mylogin{
+    margin-right: 80px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .mysearch{
+    width: 400px;
+  }
+  .mylogin{
+    margin-right: 10px;
+  }
+  #myBtn{
+    left: 550px;
+  }
+}
+
+
+@media only screen and (max-width: 1000px) {
+  #myBtn{
+    left: 450px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #myBtn{
+    left: 350px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #myBtn{
+    left: 250px;
+  }
+  .mysearch {
+    width: 00px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .mysearch {
+    width: 200px;
+  }
+}
+
+
+@media screen and (max-width: 510px) {
+  .mysearch {
+    width: 200px;
+  }
+  .myform{
+  }
+  .myform2{
+  }
+  .myform2{
+  }
+  .edureka{
+    margin-left: 100px;
+  }
+  .mydiv{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .mydiv1{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #myBtn{
+    left: 210px;
+  }
+}
